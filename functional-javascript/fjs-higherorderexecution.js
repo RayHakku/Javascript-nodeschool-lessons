@@ -4,5 +4,5 @@ function repeat(operation, num) {
     return num
   }
 }
-// Do not remove the line below
+
 module.exports = repeat
