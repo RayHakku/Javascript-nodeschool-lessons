@@ -1,0 +1,9 @@
+const fs = require('fs')
+
+fs.readFile(process.argv[2], 'utf-8', function (err, linhas) {
+    if (!err) {
+        console.log(linhas.split('\n').length - 1)
+    } else {
+        throw err
+    }
+})
