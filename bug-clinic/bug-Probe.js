@@ -1,3 +1,5 @@
+// Usei o Terminal do VSCode para Verificar
+
 //instalar JSTrace -> npm install jstrace
 var createServer = require('http').createServer
 
